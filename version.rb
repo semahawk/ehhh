@@ -6,5 +6,7 @@ module Foo
 		BUILD = nil
 		
 		STRING = [MAJOR, MINOR, PATCH, BUILD].compact.join "."
+		
+		CODENAME = "Oh-oh-seven"
 	end
 end
